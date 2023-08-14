@@ -70,4 +70,13 @@ Both models achieved high accuracy on separate test sets, effectively distinguis
 - Test Loss: 0.0070
 - Test Accuracy: 100.00%
 
+## Additional Note
+It's worth mentioning that during the course of the project, I discovered two images initially categorized as "roads" in the fields class of the dataset. These images were subsequently removed from the fields class and utilized for prediction purposes.
+
+For image predictions it is better to use `model_dataset_datafinal.pth`.
+
+## Future Improvements
+- Explore alternative architectures and hyperparameters to further improve performance.
+- Gather and label a more diverse dataset to enhance model generalization.
+- Experiment with additional data augmentation techniques.
   
