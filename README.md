@@ -33,8 +33,8 @@ The model trained on the `dataset` is stored in the `model_final.pth` file. This
 - Batch Size: 16
 - Number of Epochs: 10
 - Loss Function: L1 Loss
-- 
-The choice of ResNet101 architecture was based on its deep and complex structure, allowing it to capture intricate features in images. The L1 loss was used to train the model to minimize the absolute differences between predicted and actual values.
+  
+- The choice of ResNet101 architecture was based on its deep and complex structure, allowing it to capture intricate features in images. The L1 loss was used to train the model to minimize the absolute differences between predicted and actual values.
 
 ### Model Trained on `data`
 
@@ -45,7 +45,7 @@ The model trained on the extended `data` dataset is stored in the `model_dataset
 - Batch Size: 16
 - Number of Epochs: 7
 - Loss Function: L1 Loss
-The choice of fine-tuning the ResNet101 architecture allowed the model to adapt and specialize for improved accuracy on the extended dataset.
+- The choice of fine-tuning the ResNet101 architecture allowed the model to adapt and specialize for improved accuracy on the extended dataset.
 
 # Data Preprocessing
 For both models, the following image transformations were applied to the input images:
